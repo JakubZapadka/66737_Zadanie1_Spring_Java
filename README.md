@@ -11,7 +11,7 @@
    Pliki odpowiedzialne za wygląd aplikacji, takie jak **HTML**, **CSS** i inne zasoby, znajdują się w folderze `src/main/resources`. To właśnie te pliki definiują sposób wyświetlania aplikacji użytkownikowi.
 
 3. **Controller (Kontroler)**:  
-   Kontroler odpowiada za obsługę żądań użytkownika, decydując o tym, co ma zostać wyświetlone i jak zareagować na dane wejściowe, np. przekierowując użytkownika do odpowiednich plików HTML.
+   Kontroler odpowiada za obsługę żądań użytkownika, decydując o tym, co ma zostać wyświetlone i jak zareagować na dane wejściowe, np. przekierowując użytkownika do odpowiednich plików HTML, kontrolery znajdują się w folderze `src\main\java\pl\edu\vistula\first_project_java_spring\controller`.
 
 ## Przebieg działania aplikacji
 
@@ -49,10 +49,10 @@
      ```
 
 6. **Generowanie strony HTML**:  
-   Po zażądaniu strony przez użytkownika, aplikacja odwołuje się do folderu `resources/templates`, gdzie znajduje odpowiedni plik HTML.
+   Po zażądaniu strony przez użytkownika, aplikacja odwołuje się do folderu `resources/templates`, gdzie znajduje odpowiedni plik HTML i wyświetla go użytkownikowi.
 
-7. **Folder `static`**:  
+## Objaśnienia 
+**Folder `static`**:  
    Do przechowywania plików statycznych, takich jak zdjęcia, filmy czy style CSS, używamy folderu **`static`**, z którego aplikacja czerpie zasoby w folderze **`templates`**.
-
-8. **Folder `target`**:  
+**Folder `target`**:  
    Podczas uruchamiania aplikacji tworzony jest folder **`target`**, który zawiera pliki wynikowe procesu kompilacji (np. pliki JAR/WAR). Można go bezpiecznie usunąć, ponieważ zawartość tego folderu jest generowana na nowo podczas kolejnej kompilacji.
