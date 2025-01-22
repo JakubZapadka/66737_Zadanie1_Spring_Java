@@ -54,5 +54,7 @@
 ## Objaśnienia 
 **Folder `static`**:  
    Do przechowywania plików statycznych, takich jak zdjęcia, filmy czy style CSS, używamy folderu **`static`**, z którego aplikacja czerpie zasoby w folderze **`templates`**.
+
+   
 **Folder `target`**:  
    Podczas uruchamiania aplikacji tworzony jest folder **`target`**, który zawiera pliki wynikowe procesu kompilacji (np. pliki JAR/WAR). Można go bezpiecznie usunąć, ponieważ zawartość tego folderu jest generowana na nowo podczas kolejnej kompilacji.
