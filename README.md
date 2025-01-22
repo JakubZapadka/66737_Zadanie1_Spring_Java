@@ -1,4 +1,4 @@
-# Opis działania aplikacji
+## Opis działania Spring i czym jest
 
 **Spring** to framework Java, który ułatwia organizację projektu i zarządzanie jego strukturą w sposób uporządkowany i elastyczny, dzieki niemu możemy tworzyć aplikację w języku java które wymagałyby od nas dużej ilości czasu np. aplikacja webowa. W naszej aplikacji zastosowaliśmy architekturę **MVC** (Model-View-Controller), co pozwala na oddzielenie logiki biznesowej od prezentacji i interakcji z użytkownikiem.
 
